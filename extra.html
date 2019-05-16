@@ -11,7 +11,15 @@
 	<script>
 		var text = "Hey there, i am a javascript developer, and i live in vienna";
 
-		document.write(text.charAt(11).toUpperCase() + text.substring(12,38) + ".");
+		document.write(text.charAt(11).toUpperCase() + text.substring(12,38) + ". <br> <br>");
+
+
+
+		var fruits = ["apple", "banana", "kiwi"];
+
+		fruits.splice(2, 0, "orange", "strawberry");
+
+		document.write(fruits);
 
 
 	</script>
